@@ -4,5 +4,5 @@ run:
 testes:
 	. venv/bin/activate && pytest
 
-venv:
+env:
 	python -m venv venv	
