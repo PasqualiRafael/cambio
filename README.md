@@ -32,5 +32,5 @@ make run
 Para rodar os testes basta utilizar o commando:
 
 ```shell
-make testes
+make run_tests
 ```
