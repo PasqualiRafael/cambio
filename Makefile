@@ -1,8 +1,11 @@
 run:
 	. venv/bin/activate && python app.py
 
-testes:
+run_tests:
 	. venv/bin/activate && pytest
+	
+requirement:
+	. venv/bin/activate && pip3 install -r requirements.txt
 
 env:
-	python -m venv venv	
+	python3.8 -m venv venv	
