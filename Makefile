@@ -3,3 +3,6 @@ run:
 
 testes:
 	. venv/bin/activate && pytest
+
+venv:
+	python -m venv venv	
