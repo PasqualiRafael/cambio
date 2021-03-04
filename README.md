@@ -1,7 +1,8 @@
 # cambio
+
 ## Conversão de valores
 
-Objetivo: fazer a conversão de moedas
+Objetivo: fazer a conversão de moedas com valores pré-estabelecidos.
 
 ---
 

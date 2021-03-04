@@ -12,7 +12,7 @@ from code.calculo import converter, converter_to_brl
         (1, "GBP", "BRL", 7.24),
         (1, "BTC", "USD", 10700),
         (10, "USD", "GBP", 7.804),
-        (5, "BTC", "ARS", 4318214.286)
+        (5, "BTC", "ARS", 4318214.286),
     ],
 )
 def test_convert_each_coin(cash, origem, destino, expect_result):
@@ -33,7 +33,7 @@ def test_convert_each_coin(cash, origem, destino, expect_result):
         (1, "GBP", "BRL", Fraction(25, 181)),
         (1, "BTC", "USD", Fraction(1, 10700)),
         (10, "USD", "GBP", Fraction(724, 565)),
-        (5, "BTC", "ARS", Fraction(1, 863643))
+        (5, "BTC", "ARS", Fraction(1, 863643)),
     ],
 )
 def test_ratio_convert_each_coin(cash, origem, destino, expect_ratio):
@@ -52,7 +52,7 @@ def test_ratio_convert_each_coin(cash, origem, destino, expect_ratio):
         (1, "ARS", "BRL", 0.07),
         (1, "EUR", "BRL", 6.667),
         (1, "GBP", "BRL", 7.24),
-        (1, "BTC", "BRL", 60455)
+        (1, "BTC", "BRL", 60455),
     ],
 )
 def test_convert_to_brl(cash, origem, destino, expect_result):
